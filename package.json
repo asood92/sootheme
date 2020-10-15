@@ -1,0 +1,20 @@
+{
+  "name": "sootheme",
+  "version": "1.0.0",
+  "description": "This is a simple mindful breathing app based on the 4-7-8 breathing principle of inahling for 4 seconds, holding for 7, then slowly exhaling for 8 in order to reduce acute anxiety or disterss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asood92/sootheme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asood92/sootheme/issues"
+  },
+  "homepage": "https://github.com/asood92/sootheme#readme"
+}
