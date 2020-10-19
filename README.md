@@ -8,3 +8,4 @@ The intention is to reduce acute distress by guiding the user through the breath
 
 ## Installation
 Download source as zip, launch in webserver/browser of your choice
+
