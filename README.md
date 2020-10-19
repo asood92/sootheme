@@ -1,1 +1,6 @@
-This is a simple mindful breathing app based on the 4-7-8 breathing principle of inahling for 4 seconds, holding for 7, then slowly exhaling for 8 in order to reduce acute anxiety or disterss
+This is a simple mindful breathing page.
+
+It's based on the 4-7-8 breathing principle which entails:
+inhaling through the nose for 4 seconds, holding for 7, then slowly exhaling through the mouth for 8
+
+The intention is to reduce acute distress
