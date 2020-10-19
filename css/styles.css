@@ -61,6 +61,10 @@ h1 {
   left: 40%;
 }
 
+footer {
+  text-align: center;
+}
+
 /* Everything below here is styling for the waves */
 /* Wave image is sourced from https://getwaves.io/ */
 section {
