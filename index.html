@@ -4,11 +4,44 @@
     <head>
         <title>Soothe Me</title>
         <link rel="stylesheet" href="/css/intro-style.css">
+        </head>
+    <style>
+    [title~="tooltip"] {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    }
 
-    </head>
+    [title~="tooltip"]  .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: -10%;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin: -60px;
+    margin-top: 30%;
 
-    <body>
-        <div class="Instructions">Take a moment to yourself. Follow the prompts and breathe in through your nose for 4 seconds, hold for 7 seconds, then exhale slowly through your mouth for 8 seconds. Repeat until you feel better.
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 0.75s;
+    }
 
-    </body>
+    [title~="tooltip"] :hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    }
+    </style>
+    <body style="text-align:center;">
+
+    <div title="tooltip">Instructions
+    <span class="tooltiptext">Take a moment to yourself. Follow the prompts and breathe in through your nose for 4 seconds, hold for 7 seconds, then exhale slowly through your mouth for 8 seconds. Repeat until you feel better.</span>
+    </div>
+
+</body>
 </html>
