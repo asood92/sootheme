@@ -7,7 +7,7 @@ inhaling through the nose for 4 seconds, holding for 7, then slowly exhaling thr
 The intention is to reduce acute distress by guiding the user through the breathing exercise, accompanying along with calming visuals
 
 ## Live Demo
-[Available here](https://stream.lightsong.cc)
+[Available here](https://stage.lightsong.cc)
 
 ## Installation
 Download source as zip, launch in webserver/browser of your choice
