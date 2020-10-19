@@ -5,7 +5,7 @@
     <title>Soothe Me</title>
     <link rel="stylesheet" href="/css/intro-style.css">
 </head>
-<body onload="typeWriter()">
+<body>
     <div class="intro-message">
         <p id="instructions">Welcome. We're going to take a moment to breathe. Inhale for 4 seconds,  I hope you find this a useful exercise to get through whatever it is that's weighing on you.</p>
     </div>
@@ -19,18 +19,6 @@
     </div>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js'></script><script  src="/scripts/intro-script.js"></script>
-    <!-- <script>
-        var i = 0;
-        var txt = 'Welcome to Soothe Me - a mindful breathing page that follows the 4-7-8 breathing principle of inhaling through your nose for 4 seconds, holding it for 7, and slowly exhaling for 8. I hope you find this a useful exercise to get through whatever it is that\'s weighing on you.';
-        var speed = 50; /* The speed/duration of the effect in milliseconds */
-
-        function typeWriter() {
-        if (i < txt.length) {
-            document.getElementById("instructions").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-            }
-        } -->
     </script>
 </body>
 </html>
