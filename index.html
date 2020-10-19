@@ -3,74 +3,39 @@
 <html>
     <head>
         <title>Soothe Me</title>
-        <link rel="stylesheet" href="/css/intro-style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="/css/styles.css">
+        <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     </head>
 
     <style>
-        .buttons {
-            display: flex;
-            margin: 40px 40px;
-            justify-content: space-evenly;
-        }
-        .instructions {
-            display: flex;
-            width: 25%;
-            flex-direction: column;
-            align-items: center;
-        }
 
-        .style-instructions {
-            display: none;
-        }
     </style>
 
     <body>
-
+        <h1> Soothe Me - Take a moment to yourself.</h1>
     <div class="buttons">
         <div class="start">
-            <button onclick="startBreathing()" id="start">Start</button>
+            <p onclick="startBreathing()" id="start">Start</p>
         </div>
 
          <div class="instructions">
-            <p id="instruction-button">Instructions</p>
-            <div class="style-instructions">Take a moment to yourself. Follow the prompts and breathe in through your nose for 4 seconds, hold for 7 seconds, then exhale slowly through your mouth for 8 seconds. Repeat until you feel better.</div>
+            <p id="instruction-button">How To</p>
+            <div class="style-instructions">Follow the prompts;  breathe in through your nose for 4 seconds, hold for 7 seconds, then exhale slowly through your mouth for 8 seconds. Repeat until you feel better.</div>
         </div>
 
-        <div class="quit">
-            <p id="stop-button">Quit</p>
-        </div>
     </div>
 
-    <div class="breathingStep"></div>
+    <div id="breathingStep"></div>
 
-    <script>
-        $(document).ready(function(){
-        $("#instruction-button").click(function(){
-            $(".style-instructions").toggle();
-        });
-        });
+<!-- Markup for the animated wave -->
+    <section>
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+    </section>
 
-
-        function startBreathing() {
-            var currentStep = document.getElementsByClassName(".breathingStep")
-            console.log(currentStep)
-            setTimeout(function() {
-                console.log("We're in the first function, this is before")
-
-                currentStep.innerHTML = "Inhale through your nose for 4 seconds"
-            }, 4000)
-            console.log("2")
-            setTimeout(function() {
-                currentStep.innerHTML = "Hold your breath";
-            }, 7000)
-            console.log("3")
-            setTimeout(function() {
-                currentStep.innerHTML = "Exhale through your mouth";
-            }, 8000)
-        }
-    </script>
+    <script src="/js/script.js"></script>
 
 </body>
 </html>
